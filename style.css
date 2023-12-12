@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    background-image: url(adventure\ time.webp);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.quiz-container{
+    background-color: #f5f7ff3b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+    background-image: url(2.jpg);
+}
+
+.quiz-header{
+    padding: 4rem;
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    color: #f8bb04;
+    text-shadow: 0 2px 5px #3a362c;
+    font-size: 2rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+ 
+}
+
+ul li{
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    color: #bceccf;
+    text-shadow: 0 2px 5px rgb(78, 58, 58);
+  
+    
+    
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: gray;
+    color: aquamarine;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+button:hover{
+    background-color: rgba(128, 128, 128, 0.315);
+    transition: 0.3s ease-in-out;
+}
+
+button:focus{
+    outline: none;
+    background-color: rgb(47, 65, 60);
+}
+
+#timer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
